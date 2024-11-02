@@ -1,0 +1,55 @@
+<script src="./CalLogic.js"></script>
+
+<html>
+    <title>Just a Random Street Calculator</title>
+    
+    <link rel = "stylesheet" href = 'CalStyle.css'>
+   
+    <div class = 'header'> 
+        <h1>Simple Calculator</h1>
+        <p>
+            If something do not work, just reset it.
+            <br>
+            If you need change something, just reset it
+            <br>
+            If you see something happen to the Calculator, just reset it
+            <br>
+            Negative number caculations do not work, so if it happens, just reset it
+        </p>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <br>
+    </div>
+    
+    <div class = 'CalHeader'> 
+        <h1 id = 'display'>Calculations</h1>
+    </div>
+
+    <div class = 'content'>
+        <button type="button" class="button" onclick="numPush('1')">1</button>
+        <button type="button" class="button" onclick="numPush('2')">2</button>
+        <button type="button" class="button" onclick="numPush('3')">3</button>
+        <button type="button" class="button" onclick="numPush('/')">/</button>
+    <br>
+        <button type="button" class="button" onclick="numPush('4')">4</button>
+        <button type="button" class="button" onclick="numPush('5')">5</button>
+        <button type="button" class="button" onclick="numPush('6')">6</button>
+        <button type="button" class="button" onclick="numPush('x')">x</button>
+    <br>
+        <button type="button" class="button" onclick="numPush('7')">7</button>
+        <button type="button" class="button" onclick="numPush('8')">8</button>
+        <button type="button" class="button" onclick="numPush('9')">9</button>
+        <button type="button" class="button" onclick="numPush('-')">-</button>
+    <br>
+        <button type="button" class="button" onclick="numPush('0')">0</button>
+        <button type="button" class="button" onclick="numPush('.')">.</button>
+        <button type="button" class="button" onclick="numberSeperator()">=</button>
+        <button type="button" class="button" onclick="numPush('+')">+</button>
+    <br>
+    <div>
+        <button type="button" class ="buttonReset" onclick="screenReset()">RESET</button>
+    </div>
+</html>
