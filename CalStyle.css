@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20;
+}
+.header{
+
+}
+
+.CalHeader{
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 20px;
+    border-width: 30px;
+    background: yellow;
+    color:black;
+    font-size: 30px;
+}
+
+.content{
+    text-align: center;
+}
+.button{
+
+    border-radius: 20px;
+    background-color:darkgray;
+    border: white;
+    color:white;
+    padding: 30px 170px;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
